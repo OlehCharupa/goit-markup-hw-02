@@ -1,0 +1,79 @@
+/*  цвет ссылок и фона кнопок  #2196F3 
+ вторичный цвет текста  #757575
+основной цвет текста  #212121
+цвет текста в герое #FFFFFF
+цвет фона в чем мы занимаемся rgba(47, 48, 58, 0.8)
+фот в футере #2F303A
+основной фон #E5E5E5
+*/
+
+body{
+    background-color: #E5E5E5;
+    color: #212121;
+}
+
+.list{
+    list-style: none;
+}
+
+
+/* логотип */
+.logo {
+    color:#000000 ;
+}
+.logo:hover{
+    color: #2196F3;
+}
+.logo span{
+    color: #2196F3;
+}
+
+
+/* ссылки навигации */
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+/* hero
+.hero-title{
+
+} */
+
+
+.contact-nav a{
+    color: #757575;
+}
+.contact-nav a:hover,
+.contact-nav a:focus{
+    color: #2196F3;
+}
+
+
+.section-title{
+    color: #212121;
+}
+
+/* преимущества */
+.feature .title{
+    color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #2F303A;
+}
