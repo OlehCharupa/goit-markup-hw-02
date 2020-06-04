@@ -130,3 +130,14 @@ body{
 .footer .copy{
     color: rgba(255, 255, 255, 0.4);
 }
+
+/* PORTFOLIO */
+
+.filter-menu .link{
+    color: var(--title-text-color);
+}
+.filter-menu .link:hover,
+.filter-menu .link:focus{
+    color: var(--title-text-white);
+    background-color: var(--accent-color);
+}
