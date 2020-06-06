@@ -21,6 +21,11 @@
 body{
     background-color: #FFFFFF;
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .list{
@@ -31,12 +36,18 @@ body{
 /* логотип */
 .logo {
     color:#000000 ;
+    font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+
+text-decoration: none;
 }
 .logo:hover,
 .logo:focus{
     color: var(--accent-color);
 }
-.logo span{
+.logo .text{
     color:var(--accent-color);
 }
 
@@ -44,39 +55,73 @@ body{
 /* ссылки навигации */
 .site-nav .link{
     color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus{
     color:var(--accent-color);
 }
- /* Герой */
- .hero{
-       background-color: rgba(47, 48, 58, 0.8);
-
- }
-.hero .hero-title{
-    color: var(--title-text-white);
-} 
-.hero .link{
-    color: var(--title-text-white);
-    background-color: var(--accent-color);
-}
-
-
-.contact-nav a{
+.contact-nav .link{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
-.contact-nav a:hover,
-.contact-nav a:focus{
+.contact-nav .link:hover,
+.contact-nav .link:focus{
     color: var(--accent-color);
 }
 
+ /* Герой */
+ .hero{
+       background-color: rgba(47, 48, 58, 0.8);
+       letter-spacing: 0.06em;
+ }
 
-.section-title{
-    color: var(--title-text-color);
+.hero .hero-title{
+    color: var(--title-text-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+} 
+
+.hero .link{
+    color: var(--title-text-white);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    text-decoration: none;
 }
 
+
+.section .section-title{
+    color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+}
+
+.section .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
 /* преимущества */
 .feature .title{
     color: var(--title-text-color);
@@ -86,12 +131,22 @@ body{
 .work-list .title{
     color: var(--title-text-white);
     background-color: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
 /* наша команда */
 .team-list .title{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-transform: none;
+}
+.team-list .text{
+font-size: 16px;
+line-height: 1.19;
 }
  .socials .link:hover,
  .socials .link:focus{
@@ -107,12 +162,23 @@ body{
 .footer{
     color: var(--title-text-white);
     background-color: #2F303A;
+    /* font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em; */
 }
+
+
 
 .address .home-page{
     color: var(--title-text-white);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
-.home-page span{
+.home-page .text{
     color: var(--accent-color);
 }
 .home-page:hover,
@@ -121,23 +187,44 @@ body{
 }
 .address .link{
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .address .link:hover,
 .address .link:focus{
     color: var(--accent-color);
 }
 
+.socials-link .title-link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.socials-list .link{
+    color: var(--title-text-white);
+    text-decoration: none;
+}
+.socials-list .link:hover,
+.socials-list .link:focus{
+    color: var(--accent-color);
+}
+
 .footer .copy{
     color: rgba(255, 255, 255, 0.4);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
 }
 
 /* PORTFOLIO */
-
-.filter-menu .link{
-    color: var(--title-text-color);
+.filter-menu .button{
+   color: var(--title-text-color);
+   background: #F5F4FA;
+   font-family: inherit;
 }
-.filter-menu .link:hover,
-.filter-menu .link:focus{
-    color: var(--title-text-white);
-    background-color: var(--accent-color);
+.filter-menu .button:hover,
+.filter-menu .button:focus{
+color: var(--title-text-white);
+background-color: var(--accent-color);
 }
